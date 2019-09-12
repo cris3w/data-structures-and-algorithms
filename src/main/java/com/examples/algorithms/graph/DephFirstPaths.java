@@ -12,7 +12,7 @@ public class DephFirstPaths {
     private int s;
 
     public DephFirstPaths(Graph graph, int source) {
-        this.marked = new Boolean[graph.getNumVertices()];
+        this.marked = new Boolean[graph.getVertexs()];
         for (int i = 0; i < marked.length; i++)
             marked[i] = false;
         this.s = source;
